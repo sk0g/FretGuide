@@ -15,31 +15,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight=".25"
-        android:text="@string/tuning_selector_instruction"/>
+        android:text="@string/welcome_screen_instruction"/>
 
     <TextView
-        android:id="@+id/tuning_selector_recent_textview"
+        android:id="@+id/welcome_screen_recent_textview"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight=".8"
         style="@style/TitleText"
-        android:text="@string/tuning_selector_recents_text"/>
+        android:text="@string/welcome_screen_recents_text"/>
 
     <TextView
-        android:id="@+id/tuning_selector_preset_textview"
+        android:id="@+id/welcome_screen_preset_textview"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight=".8"
         style="@style/TitleText"
-        android:text="@string/tuning_selector_preset_text"/>
+        android:text="@string/welcome_screen_preset_text"/>
 
     <TextView
-        android:id="@+id/tuning_selector_custom_textview"
+        android:id="@+id/welcome_screen_custom_textview"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight=".8"
         style="@style/TitleText"
-        android:text="@string/tuning_selector_custom_text"/>
+        android:text="@string/welcome_screen_custom_text"/>
 
     <android.support.v4.widget.Space
         android:layout_width="match_parent"

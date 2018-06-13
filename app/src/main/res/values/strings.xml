@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FretGuide</string>
-    <string name="tuning_selector_instruction">Please select your tuning using one of the methods below</string>
-    <string name="tuning_selector_recents_text">Recently Used</string>
-    <string name="tuning_selector_preset_text">Preset Tunings</string>
-    <string name="tuning_selector_custom_text">Custom Tuning</string>
+    <string name="welcome_screen_instruction">Please select your tuning using one of the methods below</string>
+    <string name="welcome_screen_recents_text">Recently Used</string>
+    <string name="welcome_screen_preset_text">Preset Tunings</string>
+    <string name="welcome_screen_custom_text">Custom Tuning</string>
 </resources>
