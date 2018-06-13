@@ -6,14 +6,14 @@ import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
 
-class TuningSelectorActivity : AppCompatActivity() {
+class WelcomeScreenActivity : AppCompatActivity() {
     lateinit var mRecentTextView: TextView
     lateinit var mPresetTextView: TextView
     lateinit var mCustomTextView: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tuning_selector)
+        setContentView(R.layout.activity_welcome_screen)
 
         val context: Context = this
 

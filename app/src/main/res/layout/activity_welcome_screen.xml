@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TuningSelectorActivity"
+    tools:context=".WelcomeScreenActivity"
     android:orientation="vertical"
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
@@ -21,7 +21,7 @@
         android:id="@+id/tuning_selector_recent_textview"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight=".8"
         style="@style/TitleText"
         android:text="@string/tuning_selector_recents_text"/>
 
@@ -29,7 +29,7 @@
         android:id="@+id/tuning_selector_preset_textview"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight=".8"
         style="@style/TitleText"
         android:text="@string/tuning_selector_preset_text"/>
 
@@ -37,7 +37,7 @@
         android:id="@+id/tuning_selector_custom_textview"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight=".8"
         style="@style/TitleText"
         android:text="@string/tuning_selector_custom_text"/>
 
