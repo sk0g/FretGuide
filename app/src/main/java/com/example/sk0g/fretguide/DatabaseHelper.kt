@@ -3,6 +3,7 @@ package com.example.sk0g.fretguide
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import android.database.sqlite.SQLiteQueryBuilder
 
 class DatabaseHelper : SQLiteOpenHelper {
 
@@ -39,4 +40,14 @@ class DatabaseHelper : SQLiteOpenHelper {
         throw RuntimeException("This shouldn't be happening. Implement onUpgrade() pl0x")
     }
 
+    fun getTunings(keyword: String): ArrayList<TuningModel> {
+        var arrayList = ArrayList<TuningModel>()
+
+        val builder = SQLiteQueryBuilder()
+        builder.tables = tableName
+        val columns = arrayOf(tuning, time, name, type)
+        val rowSelectArgument = arrayOf(keyword)
+
+        return arrayList
+    }
 }

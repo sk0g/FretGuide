@@ -1,6 +1,6 @@
 package com.example.sk0g.fretguide
 
-class TuningData {
+class TuningModel {
     var tuning: String?=null
     var time: Int?=null
     var type: String?=null
