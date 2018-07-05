@@ -9,8 +9,10 @@
     android:layout_margin="16dp">
 
     <ListView
+        android:id="@+id/preset_tuning_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:dividerHeight="2dp">
 
     </ListView>
 </android.support.constraint.ConstraintLayout>

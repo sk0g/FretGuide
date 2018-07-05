@@ -4,4 +4,5 @@
     <string name="welcome_screen_recents_text">Recently Used</string>
     <string name="welcome_screen_preset_text">Preset Tunings</string>
     <string name="welcome_screen_custom_text">Custom Tuning</string>
+    <string name="row_untitled_text">Untitled</string>
 </resources>
