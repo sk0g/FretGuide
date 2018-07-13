@@ -46,6 +46,23 @@ class DatabaseHelper(context: Context) : ManagedSQLiteOpenHelper(context, "Tunin
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
         throw RuntimeException("This shouldn't be happening. Implement onUpgrade() pl0x")
     }
+
+    fun getRecents(): Array<TuningModel> {
+        var tunings: Array<TuningModel>
+
+//        return tunings
+    }
+
+    fun getPresets(): Array<TuningModel> {
+        var tunings: Array<TuningModel>
+
+//        return tunings
+    }
+
+    fun addTuning(tuning: String) {
+        // if tuning in DB, update timestamp
+        // else add tuning in
+    }
 }
 
 val Context.database: DatabaseHelper
